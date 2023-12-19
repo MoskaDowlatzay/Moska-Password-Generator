@@ -147,7 +147,7 @@ function getPasswordOptions() {
   if (useUppercase) selectedCharOptions.push(...upperCasedCharacters);
   if (useNumbers) selectedCharOptions.push(...numericCharacters);
   if (useSymbols) selectedCharOptions.push(...specialCharacters);
-
+  
   return { passwordLength, selectedCharOptions };
 }
 
